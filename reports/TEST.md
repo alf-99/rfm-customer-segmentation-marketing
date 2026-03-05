@@ -344,9 +344,9 @@ Customer data must be handled securely and transparently, and the segmentation s
 ## Team Roles & Responsibilities
 **Please edit as necessary
 - **Stella Hoang** – project documentation and reporting (README), model experimentation and evaluation, GitHub repository management
-- **Shaifali Tailor** – technical lead, EDA, model development and evaluation (customer segmentation, clustering, RFM analysis, CLV), FINAL model design, README contributor
+- **Shaifali Tailor** – technical lead, EDA, model development and evaluation (customer segmentation, clustering, RFM analysis, CLV), FINAL model design, README contributor, slide deck preparation
 - **Saraneya Maheswaran** – project management/task coordination, GitHub repository management, project documentation and reporting (README), model experimentation and evaluation
-- **Iris Jiongco** – data preprocessing, README contributor, model experimentation and evaluation
+- **Iris Jiongco** – data preprocessing, README contributor, model experimentation and evaluation, GitHub repository cleanup
 - **David Ancor** –  model development and evaluation (customer segmentation, clustering, RFM analysis, CLV), slide deck preparation, team meeting organization
 - **Anika Chowdhury** – model development and evaluation (clustering, customer segmentation), model integration exploration, code/peer review and quality assurance
 
@@ -360,6 +360,7 @@ Customer data must be handled securely and transparently, and the segmentation s
 - [Iris Jiongco](http://google.com)
 - [David Ancor](http://google.com)
 - [Anika Chowdhury](http://google.com)
+
 
 
 
