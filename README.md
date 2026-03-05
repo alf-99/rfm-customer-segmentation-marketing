@@ -1,17 +1,41 @@
-# **Project Model**: Machine_Learning_Group_8
+# **Customer Segmentation for Targeted Marketing Optimization** (ML8 Project)
 
-# Project Title
-Customer Segmentation for Targeted Marketing Optimization
+# 📍 **Content Navigation:**
+[Project Summary](#project-summary)
 
-# Project Overview
+[Installation and Run](#installation-and-run)
+
+[Project Model:](#project-model)
+
+- [Dataset Description](#dataset-description)
+
+- [Methodology](#methodology)
+
+- [Data Cleaning](#data-cleaning)
+
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+
+- [Model Development](#model-development)
+
+- [Ethical Implications and Biases](#ethical-implications-and-biases)
+
+- [Next Steps](#next-steps)
+
+[Team Collaboration](#team-collaboration)
+
+[Repository Structure](#repository-structure)
+
+
+# **Project Summary:**
+## Project Overview
 This project utilizes advanced machine learning techniques to transition marketing strategies from generalized outreach to highly targeted, data-driven campaigns. The analysis involves identifying hidden customer segments through unsupervised clustering, which empowers the business to allocate marketing spend efficiently, maximize campaign ROI, and engage the right customers with the right offers.
 
-## Business Problem
+### Business Problem
 The company currently applies broad, non-personalized marketing campaigns across its entire customer base. This leads to inefficient marketing spend, poor differentiation between high-value and low-value customers, and missed upselling opportunities.
 
 Thus, there is a critical need for data-driven segmentation to allow for tailoring of marketing strategies.
 
-## Business Objective
+### Business Objective
 To leverage customer segmentation for targeted marketing, enhancing campaign effectiveness and driving long-term retention and revenue growth.
 
 The primary project goals are to:
@@ -20,25 +44,14 @@ The primary project goals are to:
 
 **Success is measured by the clarity, validity, and business applicability of these clusters, ensuring they provide actionable insights that align stakeholders and confidently guide revenue strategies.**
 
-# Repository Structure - **to update*
+>### **Full project plan is outlined [here](google.com).**
 
-```
-├── data
-    └── preprocessed
-    └── raw
-    └── sql
-├── experiments
-├── models
-├── reports
-├── src
-├── .gitignore
-├── README.md
-```
-# Installation and Run - **placeholder link to update*
-- See [SETUP.md](http://google.com) file **add link**
+# **Installation and Run:**
+- Read and follow instructions in [SETUP.md](https://github.com/sara-maheswaran/Machine_Learning_Group_8/blob/main/SETUP.md) file
 
-***
-# **Project Model**: Customer Segmentation for Targeted Marketing Optimization
+###
+
+# **Project Model**:
 ## Dataset Description
 ### Source: [Kaggle – Customer Personality Analysis Dataset](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis?resource=download)
 The dataset provides insights into customer demographics, spending habits, and purchasing behavior.
@@ -217,17 +230,17 @@ The total purchaces and spending of each cluster is:
 | 2	| New / Occasional | 524 | 5967.641575 | 11.388629 | 7.519084 | 14.117103 |
 | 3	| Potential Loyals | 616 | 15730.641844 | 25.536756 | 21.021104 | 37.212538 |
 
-## Ethical Implications & Biases
-Possible ethical implications and biases are described in the XXX notebook **(add link)**
+## Ethical Implications and Biases
+Possible ethical implications and biases are described in the notebook [here](https://github.com/sara-maheswaran/Machine_Learning_Group_8/blob/main/reports/Ethical%20Implications_Biases%20rpt.ipynb) under [Reports](reports). 
 
-## Team Collaboration
-The team’s collaboration methods are described in the XXX notebook **(add link)**
-
-#### Next Steps:
+## Next Steps
 - First Step: share segments with marketing team; tag customers in Customer Relationship Manager (CRM)
 - Next Campaign: design one test campaign per segment, measure response lift
 - Quarterly: track segment migration - i.e. if customers are moving between groups
 - Annual: re-run clustering with new data to validate and update segments
+
+# **Team Collaboration:**
+The team’s collaboration methods are described in the notebook [here](https://github.com/sara-maheswaran/Machine_Learning_Group_8/blob/main/reports/Team%20Collaboration%20rpt.ipynb) under [Reports](reports). 
 
 ### Project Showcase Pitch Deck
 - See [Reports](reports) folder
@@ -239,3 +252,34 @@ The team’s collaboration methods are described in the XXX notebook **(add link
 - [David Ancor](http://google.com)
 - [Anika Chowdhury](http://google.com)
 - [Stella Hoang](http://google.com)
+
+
+
+# **Repository Structure:**
+
+```
+├── data
+    └── preprocessed
+    └── raw
+├── experiments
+├── images
+├── models
+├── reports
+├── .gitignore
+├── README.md
+├── SETUP.md
+├── pyproject.toml
+├── uv.lock
+```
+
+- **data:** Includes raw data and Exploratory Data Analysis, and preprocessed data.
+- **experiments:** Data experiments contributed by all team members.
+- **images:** Includes charts, graphs, tables from analysis.
+- **models:** Project models.
+- **reports:** Project reports.
+- **src:** Source code, databases, logs.
+- **.gitignore:** Files to exclude.
+- **README.md:** This file.
+- **SETUP.md:** Contains the steps required to set up this repo for the module.
+- **pyproject.toml:** Tells Python which packages this repo needs to run.
+- **uv.lock:** Project environment.
