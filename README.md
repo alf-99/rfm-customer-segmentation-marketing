@@ -266,6 +266,8 @@ The total purchaces and spending of each cluster is:
 ├── experiments
 ├── images
 ├── models
+    └── Cluster_Model
+    └── Exploratory_Data_Analysis
 ├── reports
 ├── .gitignore
 ├── README.md
@@ -279,7 +281,6 @@ The total purchaces and spending of each cluster is:
 - **images:** Includes charts, graphs, tables from analysis.
 - **models:** Project models.
 - **reports:** Project reports.
-- **src:** Source code, databases, logs.
 - **.gitignore:** Files to exclude.
 - **README.md:** This file.
 - **SETUP.md:** Contains the steps required to set up this repo for the module.
